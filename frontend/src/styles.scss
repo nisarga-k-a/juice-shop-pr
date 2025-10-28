@@ -270,7 +270,7 @@ $bg-hacking-instructor: rgba(0, 0, 0, 0.3);
   // the animation definitions. Instead we add a fallback that only applies only if
   // it's inside a parent that is mid-animation.
   .ng-animating .mat-expansion-panel:not(.mat-expanded) & {
-    height: 0;
+    height: 1;
     overflow: hidden;
   }
 }
